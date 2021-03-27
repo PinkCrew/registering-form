@@ -1,0 +1,74 @@
+body {
+  background-color: pink;
+}
+
+#registerform {
+  border-style: solid;
+  border-radius: 2%;
+  padding: 15px;
+  border-color: white;
+  background-color: white;
+  margin: 0px;
+  width: 500px;
+}
+
+#button {
+  background-color: pink;
+  border-color: pink;
+  width: 200px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#button:hover {
+  opacity: 80%;
+}
+
+#relation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+#wrapper { 
+  height: 100%;
+  width: 100%;
+  left:0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  background: linear-gradient(124deg, #ffabbd, #c9c8fc, #fac8ff);
+  background-size: 1800% 1800%;
+
+-webkit-animation: rainbow 5s ease infinite;
+-z-animation: rainbow 5s ease infinite;
+-o-animation: rainbow 5s ease infinite;
+  animation: rainbow 5s ease infinite;}
+
+@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@keyframes rainbow { 
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+h1 {
+  text-align: center;
+  font-weight: 400;
+  text-shadow:#686666 -17px -8px 6px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  }
